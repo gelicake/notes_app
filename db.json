@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@gmail.com",
+      "password": "1234",
+      "createdAt": "2022-11-04T14:36:10.980Z"
+    },
+    {
+      "email": "pseudo@email.com",
+      "password": "1234",
+      "createdAt": "2022-11-18T15:11:18.563Z",
+      "id": 2
+    }
+  ],
+  "notes": [
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Моя измененная заметка",
+      "body": "12312",
+      "createdAt": "2022-11-05T14:36:10.980Z"
+    },
+    {
+      "userId": 1,
+      "title": "new note",
+      "body": "MY NOTE BODY",
+      "createdAt": "2022-11-18T15:55:29.203Z",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "My Created",
+      "body": "123",
+      "createdAt": "2022-11-18T16:02:32.235Z",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "title": "123",
+      "body": "123",
+      "createdAt": "2022-11-18T16:03:26.351Z",
+      "id": 6
+    }
+  ]
+}
